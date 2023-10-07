@@ -232,8 +232,6 @@ a {
   margin-top: 8px;
 }
 .our-team-icons-svg {
-  width: 16px;
-  height: 16px;
   fill: #f4f4fd;
 }
 .our-team-soc-icon {
@@ -365,7 +363,8 @@ a {
   align-items: baseline;
 }
 .footer-wrap {
-  margin-right: 120px;
+  display: flex;
+  align-items: baseline;
 }
 .footer-social-media-text {
   font-size: 16px;
@@ -399,6 +398,9 @@ a {
   letter-spacing: 0.02em;
   max-width: 264px;
 }
+.footer-content-wrap {
+  margin-right: 120px;
+}
 .footer-ul {
   display: flex;
   gap: 16px;
@@ -421,7 +423,5 @@ a {
   background-color: #31d0aa;
 }
 .footer-icons-svg {
-  width: 24px;
-  height: 24px;
   fill: #f4f4fd;
 }
